@@ -1,0 +1,121 @@
+.home {
+  height: 90vh;
+  background: #24263b;
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: space-between;
+  clip-path: polygon(
+    0 0,
+    100% 0,
+    100% 95%,
+    90% 95%,
+    85% 100%,
+    80% 95%,
+    75% 100%,
+    70% 95%,
+    45% 95%,
+    50% 100%,
+    55% 95%,
+    30% 95%,
+    25% 100%,
+    20% 95%,
+    15% 100%,
+    10% 95%,
+    0% 95%
+  );
+  padding: 0 20px !important;
+}
+
+.left-side {
+  width: 65%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.left-side > h4 {
+  font-size: 23px;
+  font-weight: 400;
+}
+.left-side > h4 > span {
+  font-family: "Staatliches", cursive;
+  font-size: 30px;
+  font-weight: 500;
+  color: #ff5823;
+  text-transform: uppercase;
+}
+.left-side > h2 {
+  font-family: cursive;
+  text-transform: capitalize;
+  font-size: 30px;
+  margin: 35px 0;
+}
+.left-side > p {
+  font-family: sans-serif;
+  margin-bottom: 30px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.bnt-container {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+.btn-default {
+  padding: 10px 12px;
+  margin-right: 5px;
+  border-radius: 50px;
+  width: 120px;
+  font-weight: 500;
+  border: none;
+  font-size: 14px;
+  transition: 180ms ease-in;
+  color: white;
+}
+.btn-default:nth-child(1) {
+  border: 2px solid #ff5823;
+  background: transparent;
+}
+.btn-default:nth-child(1):hover {
+  border: 2px solid white;
+}
+.btn-default:nth-child(2) {
+  text-decoration: none;
+  text-align: center;
+  border: 2px solid #ff5823;
+  background: #ff5823;
+}
+.btn-default:nth-child(2):hover {
+  background: white;
+  border: 2px solid white;
+  color: #24263b;
+}
+
+.home .right-side {
+  width: 35vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.home .right-side .clip-circle {
+  background-color: white;
+  padding: 0 1px 10px 1px;
+  clip-path: circle(49%);
+}
+.home .right-side .clip-circle .w-100 {
+  width: 300px !important;
+  border-radius: 50%;
+}
+
+@media (max-width: 800px) {
+  .home {
+    flex-direction: column-reverse;
+    height: auto;
+    padding: 70px 0 !important;
+  }
+  .home .right-side {
+    margin-bottom: 50px;
+  }
+}
