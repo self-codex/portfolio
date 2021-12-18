@@ -1,9 +1,9 @@
 .nav-backgroud {
   background-color: #24263b;
   color: white;
-  height: 100px;
+  height: 75px;
   display: flex;
-  position: sticky;
+  /* position: sticky; */
   top: 0;
   z-index: 9;
 }

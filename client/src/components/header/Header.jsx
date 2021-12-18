@@ -28,19 +28,19 @@ const Header = () => {
             </Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="/about" onClick={closeMobBar}>
+            <a className="nav-link" href="#about" onClick={closeMobBar}>
               About
-            </Link>
+            </a>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="/resume" onClick={closeMobBar}>
+            <a className="nav-link" href="#resume" onClick={closeMobBar}>
               Resume
-            </Link>
+            </a>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="/contact" onClick={closeMobBar}>
+            <a className="nav-link" href="#contact" onClick={closeMobBar}>
               Contact
-            </Link>
+            </a>
           </li>
         </ul>
       </div>

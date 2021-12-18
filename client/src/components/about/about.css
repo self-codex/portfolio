@@ -18,20 +18,20 @@
 .about .left-side img {
   height: 500px !important;
 }
-.container-lg > .right-side {
+.about .container-lg > .right-side {
   display: flex;
   justify-content: flex-start !important;
   align-items: flex-start;
   flex-direction: column;
   padding: 30px 40px;
 }
-.container-lg .right-side .about-detail {
+.about .container-lg .right-side .about-detail {
   font-size: 15px !important;
   font-family: sans-serif;
   color: rgb(63, 58, 58);
   line-height: normal;
 }
-.container-lg .right-side h5 {
+.about .container-lg .right-side h5 {
   font-size: 20px !important;
   padding-top: 30px;
   padding-bottom: 10px;
@@ -41,13 +41,13 @@
   color: #ff5823;
   margin-right: 10px;
 }
-.container-lg .right-side p {
+.about .container-lg .right-side p {
   color: rgb(63, 58, 58);
   font-size: 15px !important;
   line-height: 0.2px;
 }
 
-.container-lg .hire-btn {
+.about .container-lg .hire-btn {
   background-color: #24263b !important;
 }
 .container-lg .res-btn:hover {
@@ -66,7 +66,7 @@
   .about {
     padding: 10px;
   }
-  .container-lg > .right-side {
+  .about .container-lg > .right-side {
     padding: 30px 20px;
   }
 }

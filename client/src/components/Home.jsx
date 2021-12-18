@@ -4,7 +4,7 @@ import "./home.css";
 
 const Home = () => {
   return (
-    <div className="container-fluid home">
+    <div className="container-fluid home" id="home">
       <div className="left-side">
         <h4>
           Hello, I'M <span>Muhammad Talha</span>

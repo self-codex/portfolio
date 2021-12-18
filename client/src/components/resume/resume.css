@@ -1,4 +1,166 @@
-.accordion-btn {
+.resume {
   display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  /* height: 400px; */
+}
+.resume p {
+  margin-bottom: 0 !important;
+}
+
+.resume .left-side {
+  flex-direction: row;
+  width: 34%;
+  border: none;
+  justify-content: flex-start;
+  padding: 0 30px 0 0 !important;
+  margin-right: 20px;
+  box-shadow: 15px 0 9px -15px #1f2235;
+  height: 450px;
+}
+.accordion-items {
+  border: none;
+  padding: 0 !important;
+}
+.resume .left-side .bullet-icons {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column !important;
+  background-color: #24263b;
+  width: 40px;
+  height: 100%;
+}
+.resume .left-side .bullet-icons .fas {
+  color: white !important;
+  font-size: 20px;
+  margin: 0 !important;
+}
+.resume .left-side .bullet-text {
+  display: flex;
+  flex-direction: column !important;
+  justify-content: space-evenly !important;
+  padding: 10px 0 !important;
+  height: 100% !important;
+  width: 100% !important;
+}
+.resume .left-side .bullet-text .accordion-button {
+  font-size: 17px !important;
+  font-weight: 700;
+  padding: 6px 0 !important;
+  padding-left: 20px !important;
+  transition: 0.3s ease-in !important;
+  border-radius: 0 20px 20px 0 !important;
+  text-transform: capitalize;
+}
+.accordion-button:not(.collapsed) {
+  color: white;
+  background-color: #24263b !important;
+  box-shadow: none;
+}
+
+.resume .right-side {
+  width: 66%;
+  height: 450px;
+  overflow: hidden;
+  border: none;
+}
+.accordion-button::after,
+.accordion-button::before {
+  display: none;
+}
+.resume .educations,
+.resume .work,
+.resume .project,
+.resume .interest,
+.resume .skills {
+  width: 100%;
+  height: 100%;
+}
+
+.resume .accordion-body {
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-evenly;
   flex-direction: column;
+  height: 100%;
+  padding: 10px !important;
+}
+.resume .accordion-body .edu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.resume .accordion-body .edu .uni {
+  font-size: 16px !important;
+  font-weight: 700;
+  margin-bottom: 5px;
+  color: #ff5823;
+}
+.resume .accordion-body .edu .deg {
+  font-size: 14px !important;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-left: 25px;
+}
+.resume .accordion-body .edu p {
+  font-size: 13px !important;
+}
+.resume .accordion-body .edu p,
+.resume .accordion-body .works p {
+  font-size: 13px !important;
+}
+.resume .accordion-body .institute {
+  width: 80%;
+}
+.resume .accordion-body .edu .year {
+  width: 100px !important;
+  font-size: 13px !important;
+  font-weight: 600;
+  text-align: center;
+  background-color: #ff5823;
+  padding: 6px 10px;
+  border-radius: 50px;
+  color: white;
+}
+
+.resume .accordion-body .skill {
+  display: flex;
+  margin-bottom: 10px !important;
+  align-items: center;
+}
+.resume .accordion-body .skill .uni {
+  color: #ff5823;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+.progress {
+  height: 20px;
+  margin-left: 25px;
+}
+.progress-bar {
+  background-color: #1f2235 !important;
+  font-weight: 700;
+}
+
+@media (max-width: 800px) {
+  .resume {
+    flex-direction: column;
+    padding: 30px;
+  }
+  .resume .left-side {
+    width: 100% !important;
+    margin-bottom: 20px;
+  }
+  .resume .right-side {
+    width: 100% !important;
+  }
+  .resume .left-side .bullet-text {
+    width: 50% !important;
+  }
+  .resume .accordion-body {
+    padding: 0 !important;
+  }
 }
