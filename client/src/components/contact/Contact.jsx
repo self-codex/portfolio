@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./contact.css";
+import axios from "axios";
 import MAIL_IMG from "../../image/mailz.jpeg";
 
 const Contact = () => {
@@ -7,19 +8,20 @@ const Contact = () => {
     name: "",
     email: "",
     subject: "",
+    company: "",
     message: "",
   });
 
-  const { name, email, subject, message } = userForm;
+  const { name, email, subject, company, message } = userForm;
 
   const inputEvent = (e) => {
     const { name, value } = e.target;
     setUserForm({ ...userForm, [name]: value });
   };
 
-  const formSubmint = (e) => {
+  const formSubmint = async (e) => {
     e.preventDefault();
-    console.log(userForm);
+    await axios.post("http://localhost:3030/mail", userForm);
   };
 
   return (
@@ -62,6 +64,13 @@ const Contact = () => {
               type="text"
               name="subject"
               value={subject}
+              onChange={inputEvent}
+            />
+            <label for="subject">Company</label>
+            <input
+              type="text"
+              name="company"
+              value={company}
               onChange={inputEvent}
             />
             <label for="message">Message</label>

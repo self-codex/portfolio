@@ -3,6 +3,7 @@
   border-radius: 20px;
   color: white;
   padding: 20px !important;
+  height: auto;
 }
 
 .contact .social-icons h2 {
@@ -47,7 +48,7 @@
   flex-direction: column;
   justify-content: center;
   background-color: white;
-  height: 450px;
+  height: 510px;
   border-radius: 15px;
 }
 .contact .form-container .userForm label {
