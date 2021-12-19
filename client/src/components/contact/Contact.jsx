@@ -30,13 +30,13 @@ const Contact = () => {
       <div className="contact container-lg" id="contact">
         <div className="social-icons">
           <h2>
-            Get In Touch <i class="fas fa-envelope"></i>
+            Get In Touch <i className="fas fa-envelope"></i>
           </h2>
           <p className="icons">
-            <i class="fab fa-facebook-square"></i>
-            <i class="fab fa-twitter-square"></i>
-            <i class="fab fa-github-square"></i>
-            <i class="fab fa-google-plus-square"></i>
+            <i className="fab fa-facebook-square"></i>
+            <i className="fab fa-twitter-square"></i>
+            <i className="fab fa-github-square"></i>
+            <i className="fab fa-google-plus-square"></i>
           </p>
         </div>
         <div className="form-container">
@@ -46,34 +46,34 @@ const Contact = () => {
           </div>
           <form
             className="userForm"
-            action="#"
+            method="post"
             onSubmit={formSubmint}
             autoComplete="off"
           >
-            <label for="name">Name</label>
+            <label>Name</label>
             <input type="text" name="name" value={name} onChange={inputEvent} />
-            <label for="email">E-mail</label>
+            <label>E-mail</label>
             <input
               type="email"
               name="email"
               value={email}
               onChange={inputEvent}
             />
-            <label for="subject">Subject</label>
+            <label>Subject</label>
             <input
               type="text"
               name="subject"
               value={subject}
               onChange={inputEvent}
             />
-            <label for="subject">Company</label>
+            <label>Company</label>
             <input
               type="text"
               name="company"
               value={company}
               onChange={inputEvent}
             />
-            <label for="message">Message</label>
+            <label>Message</label>
             <textarea
               type="text"
               name="message"
@@ -81,7 +81,7 @@ const Contact = () => {
               onChange={inputEvent}
             />
             <button className="btn-default" type="submit">
-              Send<i class="fas fa-paper-plane"></i>
+              Send<i className="fas fa-paper-plane"></i>
             </button>
           </form>
         </div>

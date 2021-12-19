@@ -130,7 +130,7 @@ const Resume = () => {
         <div className="right-side accordion-item">
           <div
             id="education"
-            class="accordion-collapse educations collapse show fade"
+            className="accordion-collapse educations collapse show fade"
             aria-labelledby="educationOne"
             data-bs-parent="#accordionExample"
           >
@@ -138,7 +138,8 @@ const Resume = () => {
               <div className="edu">
                 <div className="institute">
                   <p className="uni">
-                    <i class="fas fa-circle"></i>Superior University, Lahore Pk
+                    <i className="fas fa-circle"></i>Superior University, Lahore
+                    Pk
                   </p>
                   <p className="deg">(MCS) Master of Computer Science</p>
                 </div>
@@ -147,7 +148,7 @@ const Resume = () => {
               <div className="edu">
                 <div className="institute">
                   <p className="uni">
-                    <i class="fas fa-circle"></i>Superior College, Lahore Pk
+                    <i className="fas fa-circle"></i>Superior College, Lahore Pk
                   </p>
                   <p className="deg">(BCS) Bacholor of Computer Science</p>
                 </div>
@@ -156,7 +157,7 @@ const Resume = () => {
               <div className="edu">
                 <div className="institute">
                   <p className="uni">
-                    <i class="fas fa-circle"></i>Superior College, Daska Pk
+                    <i className="fas fa-circle"></i>Superior College, Daska Pk
                   </p>
                   <p className="deg">(ICS) Intermediate of Computer Science</p>
                 </div>
@@ -166,15 +167,15 @@ const Resume = () => {
           </div>
           <div
             id="work"
-            class="accordion-collapse collapse work fade"
+            className="accordion-collapse collapse work fade"
             aria-labelledby="workOne"
             data-bs-parent="#accordionExample"
           >
-            <div class="accordion-body">
+            <div className="accordion-body">
               <div className="edu">
                 <div className="institute">
                   <p className="uni">
-                    <i class="fas fa-circle"></i>wGroup Tech
+                    <i className="fas fa-circle"></i>wGroup Tech
                   </p>
                   <p className="deg">FULL STACK DEVELOPER INTERN</p>
                 </div>
@@ -203,11 +204,11 @@ const Resume = () => {
           </div>
           <div
             id="programming"
-            class="accordion-collapse skills collapse fade"
+            className="accordion-collapse skills collapse fade"
             aria-labelledby="programmingSkill"
             data-bs-parent="#accordionExample"
           >
-            <div class="accordion-body">
+            <div className="accordion-body">
               <div className="skill">
                 <div className="institute">
                   <p className="uni">
@@ -345,15 +346,15 @@ const Resume = () => {
           </div>
           <div
             id="project"
-            class="accordion-collapse project collapse fade"
+            className="accordion-collapse project collapse fade"
             aria-labelledby="projectOne"
             data-bs-parent="#accordionExample"
           >
-            <div class="accordion-body">
+            <div className="accordion-body">
               <div className="edu">
                 <div className="institute">
                   <p className="uni">
-                    <i class="fas fa-circle"></i>Personal Portfolio Website
+                    <i className="fas fa-circle"></i>Personal Portfolio Website
                   </p>
                   <p className="deg">Technologies Used: React JS, Bootsrap</p>
                   <p>
@@ -366,7 +367,7 @@ const Resume = () => {
               <div className="edu">
                 <div className="institute">
                   <p className="uni">
-                    <i class="fas fa-circle"></i>Mobile E-shop
+                    <i className="fas fa-circle"></i>Mobile E-shop
                   </p>
                   <p className="deg">
                     Technologies Used:Mongo DB, Express Js, Node Js, Redux.
@@ -381,7 +382,7 @@ const Resume = () => {
               <div className="edu">
                 <div className="institute">
                   <p className="uni">
-                    <i class="fas fa-circle"></i>Ecommerce Website
+                    <i className="fas fa-circle"></i>Ecommerce Website
                   </p>
                   <p className="deg">
                     Technologies Used: Mongo DB, Epress Js, React Js, Node JS,
@@ -399,15 +400,15 @@ const Resume = () => {
           </div>
           <div
             id="interest"
-            class="accordion-collapse interest collapse fade"
+            className="accordion-collapse interest collapse fade"
             aria-labelledby="interestOne"
             data-bs-parent="#accordionExample"
           >
-            <div class="accordion-body">
+            <div className="accordion-body">
               <div className="edu">
                 <div>
                   <p className="uni">
-                    <i class="fas fa-circle"></i>Teaching
+                    <i className="fas fa-circle"></i>Teaching
                   </p>
                   <p>
                     Apart from being a tech enthusiast and a code writer, i also
@@ -419,7 +420,7 @@ const Resume = () => {
               <div className="edu">
                 <div>
                   <p className="uni">
-                    <i class="fas fa-circle"></i>Music
+                    <i className="fas fa-circle"></i>Music
                   </p>
                   <p>
                     Listening to soothing music is something i can never
@@ -432,7 +433,7 @@ const Resume = () => {
               <div className="edu">
                 <div>
                   <p className="uni">
-                    <i class="fas fa-circle"></i>Competitive Gaming
+                    <i className="fas fa-circle"></i>Competitive Gaming
                   </p>
                   <p>
                     I like to challenge my reflexes a lot while competing in

@@ -20,27 +20,27 @@ const About = () => {
             </p>
             <h5>Here are a Few Highlights:</h5>
             <p>
-              <i class="fas fa-circle"></i>
+              <i className="fas fa-circle"></i>
               Full Stack web development
             </p>
             <p>
-              <i class="fas fa-circle"></i>
+              <i className="fas fa-circle"></i>
               Interactive Front End as per the design
             </p>
             <p>
-              <i class="fas fa-circle"></i>
+              <i className="fas fa-circle"></i>
               Reactjs and Redux
             </p>
             <p>
-              <i class="fas fa-circle"></i>
+              <i className="fas fa-circle"></i>
               Redux for State Mnanagement
             </p>
             <p>
-              <i class="fas fa-circle"></i>
+              <i className="fas fa-circle"></i>
               Building REST API
             </p>
             <p>
-              <i class="fas fa-circle"></i>
+              <i className="fas fa-circle"></i>
               Managing database
             </p>
             <div className="btn-continer mt-4">
