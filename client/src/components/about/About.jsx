@@ -21,7 +21,7 @@ const About = () => {
             <h5>Here are a Few Highlights:</h5>
             <p>
               <i class="fas fa-circle"></i>
-              Full Stack web and mobile development
+              Full Stack web development
             </p>
             <p>
               <i class="fas fa-circle"></i>
