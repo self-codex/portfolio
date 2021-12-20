@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./contact.css";
 import axios from "axios";
+import Swal from "sweetalert2";
 import MAIL_IMG from "../../image/mailz.jpeg";
 
 const Contact = () => {
@@ -19,9 +20,23 @@ const Contact = () => {
     setUserForm({ ...userForm, [name]: value });
   };
 
-  const formSubmint = async (e) => {
+  const formSubmint = (e) => {
     e.preventDefault();
-    await axios.post("http://localhost:3030/mail", userForm);
+    if (name && email && company && message && subject !== "") {
+      axios.post("/mail", userForm);
+      setTimeout(() => {
+        Swal.fire("Status", "Your Mail Send Success", "success");
+        setUserForm({
+          name: "",
+          email: "",
+          subject: "",
+          company: "",
+          message: "",
+        });
+      }, 500);
+    } else {
+      Swal.fire("Oops...", "Please Fill all Fields!", "error");
+    }
   };
 
   return (
