@@ -1,3 +1,12 @@
+h1 {
+  text-align: center !important;
+  margin-top: 50px !important;
+  margin-bottom: 0px !important;
+  font-size: 40px !important;
+  font-weight: 500 !important;
+  font-family: cursive;
+}
+
 .about {
   display: flex;
   align-items: center;
@@ -59,14 +68,14 @@
     display: none;
   }
   .about {
-    padding: 30px;
+    padding: 0 30px;
   }
 }
-@media (max-width: 400px) {
+@media (max-width: 450px) {
   .about {
-    padding: 10px;
+    padding: 0;
   }
   .about .container-lg > .right-side {
-    padding: 30px 20px;
+    padding: 30px 10px;
   }
 }

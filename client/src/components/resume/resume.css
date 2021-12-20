@@ -114,6 +114,9 @@
 .resume .accordion-body .institute {
   width: 80%;
 }
+.resume .accordion-body .des {
+  margin-left: 25px !important;
+}
 .resume .accordion-body .edu .year {
   width: 100px !important;
   font-size: 13px !important;
@@ -162,5 +165,21 @@
   }
   .resume .accordion-body {
     padding: 0 !important;
+  }
+}
+
+@media (max-width: 450px) {
+  .resume {
+    padding: 10px;
+  }
+  .resume .left-side {
+    padding: 0 !important;
+  }
+  .resume .left-side .bullet-text .accordion-button {
+    font-size: 14px !important;
+    padding-left: 10px !important;
+  }
+  .resume .left-side .bullet-text {
+    width: 80% !important;
   }
 }

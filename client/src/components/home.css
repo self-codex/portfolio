@@ -119,3 +119,21 @@
     margin-bottom: 50px;
   }
 }
+@media (max-width: 450px) {
+  .home .left-side > h4 {
+    font-size: 18px;
+  }
+  .home .left-side > h4 > span {
+    font-size: 20px;
+  }
+  .home .left-side > h2 {
+    font-size: 25px;
+  }
+
+  .btn-default {
+    padding: 6px 8px;
+    margin-right: 0;
+    width: 100px;
+    font-size: 12px;
+  }
+}

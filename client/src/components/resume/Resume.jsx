@@ -4,11 +4,9 @@ import "./resume.css";
 const Resume = () => {
   return (
     <>
-      <h2 style={{ textAlign: "center" }} id="resume">
-        Resume
-      </h2>
+      <h1 id="resume">Resume</h1>
       <div
-        className=" accordion resume container-lg mt-5 mb-5 d-flex"
+        className=" accordion resume container-lg d-flex"
         id="accordionExample"
       >
         <div className="accordion-item left-side container-fluid">
@@ -182,20 +180,24 @@ const Resume = () => {
                 <div className="year">2019-2021</div>
               </div>
               <div className="works">
-                <p>
-                  Currently working as MERN stack web and mobile developer and
-                  also an online instructor on udemy
+                <p className="des">
+                  I’m a fresh Graduate. My Objective is to search for a position
+                  that will allow me to improve my current programming,
+                  Communication and team work skills. From this position, I also
+                  seek the opportunity to learn new skills for future use I’m
+                  very confident that will be excellent fit for your
+                  organization.
                 </p>
-                <p>
+                <p className="des">
                   - Developed an ecommerce website for client with the dashboard
                   for managing the products, managing reviews, users, payment
                   etc. .
                 </p>
-                <p>
+                <p className="des">
                   - Integrated the web app with backend services to create new
                   user onboarding application with dynamic form content.
                 </p>
-                <p>
+                <p className="des">
                   - I stretch my mental capacity to develope UI as per the given
                   designs.
                 </p>
@@ -357,7 +359,7 @@ const Resume = () => {
                     <i className="fas fa-circle"></i>Personal Portfolio Website
                   </p>
                   <p className="deg">Technologies Used: React JS, Bootsrap</p>
-                  <p>
+                  <p className="des">
                     A Personal Portfolio website to showcase all my details and
                     projects at one place.
                   </p>
@@ -367,14 +369,13 @@ const Resume = () => {
               <div className="edu">
                 <div className="institute">
                   <p className="uni">
-                    <i className="fas fa-circle"></i>Mobile E-shop
+                    <i className="fas fa-circle"></i>Spotify-Clone
                   </p>
                   <p className="deg">
                     Technologies Used:Mongo DB, Express Js, Node Js, Redux.
                   </p>
-                  <p>
-                    An ecommerce application designed to sell products online
-                    wth payment system integration
+                  <p className="des">
+                    An Spotify application designed to online music
                   </p>
                 </div>
                 <div className="year">2017-2019</div>
@@ -388,10 +389,9 @@ const Resume = () => {
                     Technologies Used: Mongo DB, Epress Js, React Js, Node JS,
                     Redux, Bootstrap.
                   </p>
-                  <p>
+                  <p className="des">
                     Online ecommerce website for showcasing and selling products
-                    onlne with payment system integration, both Paypal and
-                    Stripe
+                    onlne with payment system integration, with Stripe
                   </p>
                 </div>
                 <div className="year">2015-2017</div>
@@ -410,7 +410,7 @@ const Resume = () => {
                   <p className="uni">
                     <i className="fas fa-circle"></i>Teaching
                   </p>
-                  <p>
+                  <p className="des">
                     Apart from being a tech enthusiast and a code writer, i also
                     love to teach people what i know simply because i believe in
                     sharing.
@@ -422,7 +422,7 @@ const Resume = () => {
                   <p className="uni">
                     <i className="fas fa-circle"></i>Music
                   </p>
-                  <p>
+                  <p className="des">
                     Listening to soothing music is something i can never
                     compromise with, skimming through Spotify's pop songs charts
                     is at times the best stress reliever that i can get my hands
@@ -435,7 +435,7 @@ const Resume = () => {
                   <p className="uni">
                     <i className="fas fa-circle"></i>Competitive Gaming
                   </p>
-                  <p>
+                  <p className="des">
                     I like to challenge my reflexes a lot while competing in
                     football games, pushing the rank and having interactive
                     gaming sessions excites me the most.
